@@ -19,8 +19,9 @@ async def on_message(msg):
     if (msg.guild == None):
         # Get the correct channel to send to
         chan = client.get_channel(731697576138768414)
-        # Send an exact copy of the message
-        await chan.send(msg.content)
+        # Send an exact copy of the message, and makes it all lowercase
+        # to anonymize the message further
+        await chan.send(msg.content.lower())
 
 # This contains the relevant bot token, which is deleted for security
 # reasons. If you wish to verify the correct bot is running, please
