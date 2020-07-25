@@ -18,7 +18,7 @@ async def on_message(msg):
     # If the message is not in a server
     if (msg.guild == None):
         # Get the correct channel to send to
-        chan = client.get_channel(341430302662590466)
+        chan = client.get_channel(731697576138768414)
         # Send an exact copy of the message
         await chan.send(msg.content)
 
@@ -26,4 +26,4 @@ async def on_message(msg):
 # reasons. If you wish to verify the correct bot is running, please
 # contact Skye via the bot and she will send you proof of the running
 # code
-client.run("token")
+client.run("NzM2NjE1OTYwMTk4NTEyNjYx.XxxZEg.er9haZZtPujYPwQxjR3RdHUR5Uw")
