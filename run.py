@@ -26,4 +26,4 @@ async def on_message(msg):
 # reasons. If you wish to verify the correct bot is running, please
 # contact Skye via the bot and she will send you proof of the running
 # code
-client.run("NzM2NjE1OTYwMTk4NTEyNjYx.XxxZEg.er9haZZtPujYPwQxjR3RdHUR5Uw")
+client.run("token")
